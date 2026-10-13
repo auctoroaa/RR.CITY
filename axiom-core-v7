@@ -1,0 +1,15 @@
+axiom-core-v7/
+├── CMakeLists.txt
+├── include/
+│   ├── axiom_types.h
+│   ├── particle_state.h
+│   ├── state_snapshot.h
+│   ├── kahan_ledger.h
+│   ├── zone_material_mapper.h
+│   ├── constitutive_model.h
+│   ├── global_solver.h
+│   └── orthogonal_validator.h
+├── src/
+│   └── main.cpp
+└── tests/
+    └── test_phase1_zoning.cpp
